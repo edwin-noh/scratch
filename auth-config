@@ -1,0 +1,26 @@
+secret
+vjvs8?:h1L@3k6yVwYPN-=CY3XsixS[/
+
+
+- name: ocpazuread
+challenge: false
+login: true
+mappingMethod: claim
+provider:
+apiVersion: v1
+kind: OpenIDIdentityProvider
+clientID: b910bffa-78b8-4ea4-8f4b-9cd5c92516c3
+clientSecret: 123qwe.
+claims:
+id:
+- sub
+preferredUsername:
+- unique_name
+name:
+- name
+email:
+- email
+urls:
+authorize:
+https://login.microsoftonline.com/9d1b3610-9ab0-42d5-93aa-46150d723d87/oauth2/authorize
+token: https://login.microsoftonline.com/9d1b3610-9ab0-42d5-93aa-46150d723d87/oauth2/token
